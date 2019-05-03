@@ -5,6 +5,6 @@ Rails.application.routes.draw do
 
   # this creates a route between def show in user controller to show.html.erb 
   # displayed as url: user/id as user_path
-  resources :users, only: [:show]
+  resources :users, only: [:show, :edit]
   root to: 'home#index'
 end

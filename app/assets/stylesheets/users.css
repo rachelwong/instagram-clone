@@ -124,4 +124,25 @@
   width: 100%;
   border-radius: 4%;
 }
+
+.user-edit-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 60px;
+  min-height: 500px;
+}
+
+.user-edit-page .actions {
+  width: 220px;
+  border: 1px solid #dbdbdb;
+}
+
+.user-edit-page .details {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border: 1px solid #dbdbdb;
+  border-left: none;
+}
 /*# sourceMappingURL=users.css.map */

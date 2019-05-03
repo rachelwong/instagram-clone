@@ -7,8 +7,9 @@ Tutorial: https://medium.com/luanotes/build-instagram-by-ruby-on-rails-part-1-fe
 ## Dev notes
 
 - Use font-awesome-sass instead of font-awesome-rails
+- uses old version of font awesome icons https://fontawesome.com/v4.7.0/
 
-Original user sign in sign out nav
+### Original user sign in sign out nav
 
 ```
         <% if user_signed_in? %>
