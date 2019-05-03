@@ -1,24 +1,9 @@
-# README
+# Instagram-clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Third attempt at instagram clone
 
-Things you may want to cover:
+Tutorial: https://medium.com/luanotes/build-instagram-by-ruby-on-rails-part-1-fef7837ee399
 
-* Ruby version
+## Dev notes
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Use font-awesome-sass instead of font-awesome-rails
