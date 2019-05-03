@@ -7,3 +7,17 @@ Tutorial: https://medium.com/luanotes/build-instagram-by-ruby-on-rails-part-1-fe
 ## Dev notes
 
 - Use font-awesome-sass instead of font-awesome-rails
+
+Original user sign in sign out nav
+
+```
+        <% if user_signed_in? %>
+          <a href="<%= destroy_user_session_path %>" data-method="delete">
+            <i class="fa fa-user"></i>
+          </a>
+        <% else %>
+          <a href="<%= new_user_session_path %>">
+            <i class="fa fa-sign-in"></i>
+          </a>
+        <% end %>
+```
