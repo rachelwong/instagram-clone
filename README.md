@@ -22,3 +22,7 @@ Tutorial: https://medium.com/luanotes/build-instagram-by-ruby-on-rails-part-1-fe
           </a>
         <% end %>
 ```
+
+### userful to understand for strong parameters
+
+Rails support some feature that helps we write secure applications. This one is called strong parameters, which require us to define which parameters are allowed into our controller actions. We have to whitelist our parameters to prevent wrongful mass assignment.
