@@ -26,7 +26,9 @@
     <section class="post">
       <div class="user">
         <div class="avatar">
-          <img src="https://picsum.photos/id/66/200/200" />
+          <% if post.user.avatar.attached? %>
+            <%= image_tag post.user.avatar %>
+          <% end %>        
         </div>
         <div class="username">
           <%= post.user.username %>
