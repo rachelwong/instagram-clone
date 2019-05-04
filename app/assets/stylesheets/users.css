@@ -213,4 +213,17 @@
 .form-edit-user input[type="submit"] {
   color: white;
 }
+
+/** CREATE POST FORM **/
+.form-upload {
+  border: 1px solid #dbdbdb;
+  height: auto;
+  margin: auto 160px;
+  padding: 30px;
+  border-radius: 3px;
+}
+
+.form-upload input[type="text"] {
+  width: 100%;
+}
 /*# sourceMappingURL=users.css.map */
