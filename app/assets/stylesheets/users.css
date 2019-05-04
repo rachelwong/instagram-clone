@@ -270,4 +270,8 @@
 .posts .post .description {
   padding: 20px;
 }
+
+.pagination span {
+  padding-right: 10px;
+}
 /*# sourceMappingURL=users.css.map */

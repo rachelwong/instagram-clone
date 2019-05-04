@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   def create
     Post.create(post_params)
-    redirect_to root_path
+    redirect_to home_index_path
   end
 
   private
