@@ -9,7 +9,6 @@ class UsersController < ApplicationController
   end
 
   def update
-
     # update the current user based on the parameters in the form 
     # current_user.update(params[:user])
     current_user.update(user_params)
