@@ -1,3 +1,7 @@
+<%= form_with url: search_path, method: :get, local: true, class: 'form-inline search-form' do |form| %>
+  <%= form.text_field :query, value: params[:query], class: 'form-control mr-sm-2', placeholder: '#search' %>
+<% end %>
+
 <% if user_signed_in? %>
   <%= form_for Post.new do |f| %>
 <div class="form-upload">
